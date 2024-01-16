@@ -1,10 +1,12 @@
 /*
-This code shows how the ESP OTG board can input keystrokes from a USB keyboard using it's USB Host female port 
+This code shows how the ESP32-S3-USB-OTG board can input keystrokes from a USB keyboard using it's USB Host female port 
 and output the keystrokes via bluetooth.  In otherwords we have created a keyboard dongle.
 This code can be the starting point for a number of projects such as a wireless keyboard controller or a
 keyboard dongle that add functionality to a keyboard such as macros or recording keystrokes etc.
 On the EPS32-S3-USB_OTG board Use the USB Micro port for uploading the code or for the serial monitor.
 If using a different ESP32-S3 based board you will have to determine how to manage the USB port(s).
+Note: This code by default expects a battery connected to the BAT pads, look for the comment below on how to change
+this to use the USB_DEV port for power.
 */
 #include <Arduino.h>
 #include <SPI.h>

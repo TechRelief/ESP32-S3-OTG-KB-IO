@@ -37,7 +37,7 @@ bool hasWin(uint8_t modifier) //4JAN24 - TR Added support for WIN keys
 /// @return Key name as a string.
 String XlatHidCode(uint8_t hidCode)
 {
- /* Not Processed, add if needed
+ /* Not Processed, add if needed...
  HID_KEY_KEYPAD_DIVIDE             0x54
  HID_KEY_KEYPAD_MULTIPLY           0x55
  HID_KEY_KEYPAD_SUBTRACT           0x56
